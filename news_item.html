@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css -->
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="w-75 mx-auto nav_container">
+        <nav class="navbar navbar-expand-lg navbar-light zf-navbar">
+            <a class="navbar-brand" href="#">Navbar w/ text</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="case.html">案例欣赏</a>
+                    </li>
+                    <li class="nav-item position-relative news_item active">
+                        <a class="nav-link" href="news.html">新闻中心</a>
+                        <div class="btn-group-vertical position-absolute">
+                            <a href="#" type="button" class="btn btn-light">企业资讯</a>
+                            <a href="#" type=" button" class="btn btn-light">行业热点</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">服务中心</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">关于我们</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <section>
+        <img src="./images/news_banner.jpg" class="w-100" alt="">
+    </section>
+
+    <div class="w-75 mx-auto nav_container">
+        <div class="title pt-4 border-bottom mb-4 mx-4 news_item_title">
+            <h4 class="mb-4">品牌设计让你的品牌更具价值</h4>
+            <span class="d-block mb-4">2018-08-14 14:50</span>
+        </div>
+        <div class="news_item_content mx-4 pb-5 mb-5">
+            <span
+                class="d-block mb-5 pt-3">品牌只有赋予其商业产品才具有品牌价值，而品牌的构成离不开产品、市场、广告、形象、理念等多方面，品牌并不是取个好听的名字，设计一个标志就能称其为品牌，只有当品牌被消费者认可并获取消费信任后，才能称其为品牌。很多企业在塑造和推广品牌过程中，往往只偏重于某一方面，比如有些偏重于产品设计和研发，而有的企业则偏重于市场营销，还有的企业将利润和销售额看成品牌。</span>
+            <span
+                class="d-block mb-5">那么，品牌究竟是什么？在重庆品牌设计公司看来，品牌是一个综合性的包装，这里面包含产品品质，市场营销，售后服务承诺，品牌理念，品牌形象和广告宣传，而对于品牌设计来说，是需要将品牌设计结合企业价值理念、产品特性对其进行综合化、系统化的深入浅出的进行直白、直观、简单的视觉符号表达和视觉形象设计。比如产品包装形象设计，、品牌的标志LOGO设计，品牌企业文化设计，企业VI设计，以及广告宣传设计等等，所以说，品牌设计是一个持续性、系统性、全面性的策划和设计工作，需要品牌设计公司长久持续的进行专业品牌设计服务。</span>
+            <span
+                class="d-block mb-5">当然，有了好品牌，更需要做好品牌维护和管理。品牌是长期性持续不断的工作，需要严格按照设计公司的方案进行实施，才能将品牌较大化、更持久的影响力发挥出来，从而产生品牌价值。</span>
+        </div>
+    </div>
+
+    <div class="copyright_zf">
+        <div class="copy_container">
+            <h4>Contact US</h4>
+            <span>000-000-0000</span>
+            <span>000-000-0000</span>
+            <span>XXX省XXX市XXX县XXX路XXX号</span>
+        </div>
+    </div>
+
+    <!-- 回到顶部 -->
+    <div id="to_top" class="position-fixed">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+            <title>回到顶部</title>
+            <rect width="48" height="48" rx="8" ry="8" fill="#fff"></rect>
+            <path
+                d="M32.57,26.71l-7.52-7.52a1.48,1.48,0,0,0-2.1,0l-7.52,7.52a1.5,1.5,0,0,0,0,2.1,1.48,1.48,0,0,0,2.1,0L24,22.34l6.47,6.47a1.48,1.48,0,0,0,2.1,0A1.5,1.5,0,0,0,32.57,26.71Z"
+                fill="#666" fill-rule="evenodd"></path>
+        </svg>
+    </div>
+    <script>
+        $(document).scroll(function () {
+            if ($(document).scrollTop() > 300) {
+                $('#to_top').addClass('show')
+            } else {
+                $('#to_top').removeClass('show')
+            }
+        })
+
+        // 回滚顶端
+        $('#to_top').click(function () {
+            $('html , body').animate({ scrollTop: 0 }, 'slow');
+        })
+    </script>
+</body>
+
+</html>
